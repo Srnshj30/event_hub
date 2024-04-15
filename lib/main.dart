@@ -1,6 +1,5 @@
 import 'package:event_hub/screens/home_screen.dart';
-import 'package:event_hub/screens/login_page.dart';
-// import 'package:event_hub/screens/sign_up.dart';
+import 'package:event_hub/screens/auth_screen.dart';
 import 'package:event_hub/screens/splash_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +31,7 @@ class MyApp extends StatelessWidget {
               return const HomeScreen();
             }
 
-            return const LoginPage();
+            return const AuthScreen();
           }),
     );
   }

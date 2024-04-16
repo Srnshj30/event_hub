@@ -1,5 +1,6 @@
-import 'package:event_hub/screens/home_screen.dart';
+
 import 'package:event_hub/screens/auth_screen.dart';
+import 'package:event_hub/screens/nav_bar.dart';
 import 'package:event_hub/screens/splash_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
